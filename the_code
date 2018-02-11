@@ -1,0 +1,9 @@
+original = raw_input('Enter a word:')
+def pig_latin(arg1):
+    first_letter= arg1[0]
+    pig_word = arg1[1:]
+    pyg = 'ay'
+    new_word= pig_word + first_letter + pyg
+    return new_word
+
+print pig_latin(original)
